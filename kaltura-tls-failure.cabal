@@ -1,0 +1,29 @@
+name:                kaltura-tls-failure
+version:             0
+synopsis:            Demo for Kaltura TLS failure
+license:             BSD3
+author:              Bas van Dijk
+copyright:           Bas van Dijk
+build-type:          Simple
+cabal-version:       >=1.20
+
+executable kaltura-tls-failure
+  default-language: Haskell98
+  main-is:          kaltura-tls-failure.hs
+  build-depends:
+      base                                  
+    , base64-bytestring
+    , bytestring
+    , containers
+    , http-conduit
+    , snap-core
+    , text
+    , time
+    , resourcet
+    , data-default
+    , crypto-api
+    , cipher-aes128
+    , cereal
+    , cryptohash
+    , DRBG
+    , tagged
